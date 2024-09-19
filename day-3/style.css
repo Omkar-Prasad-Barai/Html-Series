@@ -1,0 +1,15 @@
+.choice{ background-color:aqua;
+    border-style: solid;
+    border-color: blue;
+    border-width: 5px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 30%;
+}
+#mychoice{
+    display:flex;
+    justify-content: space-between;
+}
