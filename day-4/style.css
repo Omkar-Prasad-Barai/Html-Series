@@ -1,0 +1,19 @@
+.Shoes{
+    border-style: solid;
+    border-color: rgb(0, 0, 117);
+    border-width: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 30%;
+}
+#ShoesImages{
+    display:flex;
+    justify-content: space-between;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
