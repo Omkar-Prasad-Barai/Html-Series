@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    height: 500px;
+    width: 800px;
+    background-color: yellowgreen;
+}
+
+.child {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+.child-1 {
+    background-color: aqua;
+}
+
+.child-2 {
+    background-color: rebeccapurple;
+    z-index: 1001;
+}
+
+.child-3 {
+    background-color: green;
+    z-index: 1000;
+}
+
+.child-4 {
+    background-color: orangered;
+    left: 100px;
+    top: 200px;
+    position: fixed;
+}
+
+.child-5 {
+    background-color: plum;
+}
